@@ -164,7 +164,7 @@ export default function Home() {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-pink-800 mb-4">Perfect for Every Occasion</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              Whatever you're celebrating, we have the perfect sweet creation
+            Whatever you&apos;re celebrating, we have the perfect sweet creation
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -234,7 +234,7 @@ export default function Home() {
                       ))}
                     </div>
                   </div>
-                  <p className="text-gray-700 mb-6 italic">"{item.quote}"</p>
+                  <p className="text-gray-700 mb-6 italic">&quot;{item.quote}&quot;</p>
                   <div className="flex items-center">
                     <div className="w-12 h-12 bg-pink-100 rounded-full flex items-center justify-center text-pink-800 font-bold">
                       {item.author.charAt(0)}
